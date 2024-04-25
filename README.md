@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
         }
 
         header {
@@ -31,6 +31,7 @@
             color: #fff;
             text-decoration: none;
             padding: 10px 20px;
+            transition: background-color 0.3s ease;
         }
 
         nav a:hover {
@@ -39,9 +40,17 @@
 
         section {
             padding: 20px;
-            margin: 20px;
+            margin: 20px auto;
             background-color: #fff;
-            border-radius: 5px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        h2 {
+            margin-top: 0;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
         }
 
         footer {
@@ -91,4 +100,3 @@
         <p>&copy; 2024 Your Name</p>
     </footer>
 </body>
-</html>
